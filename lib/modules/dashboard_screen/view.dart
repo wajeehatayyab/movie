@@ -61,15 +61,13 @@ class _DashboardScreenState extends State<DashboardScreen> {
             label: 'Home',
           ),
           NavigationDestination(
-            icon: Badge(child: Icon(Icons.search)),
+            icon:  Icon(Icons.search),
             label: 'Search',
           ),
           NavigationDestination(
-            icon: Badge(
-              label: Text('2'),
-              child: Icon(Icons.favorite),
-            ),
-            label: 'Messages',
+            icon:  Icon(Icons.favorite),
+
+            label: 'Favorite',
           ),
         ],
       ),
